@@ -14,6 +14,8 @@
 		47EF7E9E1B178E8500146790 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47EF7E9D1B178E8500146790 /* Images.xcassets */; };
 		47EF7EA11B178E8500146790 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47EF7E9F1B178E8500146790 /* LaunchScreen.xib */; };
 		47EF7EAD1B178E8500146790 /* ZaHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7EAC1B178E8500146790 /* ZaHunterTests.m */; };
+		47EF7EB81B178F8700146790 /* Pizzeria.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7EB71B178F8700146790 /* Pizzeria.m */; };
+		47EF7EBB1B17985F00146790 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EF7EBA1B17985F00146790 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,11 @@
 		47EF7EA61B178E8500146790 /* ZaHunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZaHunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47EF7EAB1B178E8500146790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47EF7EAC1B178E8500146790 /* ZaHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZaHunterTests.m; sourceTree = "<group>"; };
+		47EF7EB61B178F8700146790 /* Pizzeria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pizzeria.h; sourceTree = "<group>"; };
+		47EF7EB71B178F8700146790 /* Pizzeria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pizzeria.m; sourceTree = "<group>"; };
+		47EF7EB91B17985F00146790 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		47EF7EBA1B17985F00146790 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		47EF7EBC1B1799B800146790 /* Chicago, IL.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Chicago, IL.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +90,14 @@
 			children = (
 				47EF7E941B178E8500146790 /* AppDelegate.h */,
 				47EF7E951B178E8500146790 /* AppDelegate.m */,
+				47EF7EB61B178F8700146790 /* Pizzeria.h */,
+				47EF7EB71B178F8700146790 /* Pizzeria.m */,
 				47EF7E971B178E8500146790 /* ViewController.h */,
 				47EF7E981B178E8500146790 /* ViewController.m */,
+				47EF7EB91B17985F00146790 /* MapViewController.h */,
+				47EF7EBA1B17985F00146790 /* MapViewController.m */,
 				47EF7E9A1B178E8500146790 /* Main.storyboard */,
+				47EF7EBC1B1799B800146790 /* Chicago, IL.gpx */,
 				47EF7E9D1B178E8500146790 /* Images.xcassets */,
 				47EF7E9F1B178E8500146790 /* LaunchScreen.xib */,
 				47EF7E901B178E8500146790 /* Supporting Files */,
@@ -221,7 +233,9 @@
 			files = (
 				47EF7E991B178E8500146790 /* ViewController.m in Sources */,
 				47EF7E961B178E8500146790 /* AppDelegate.m in Sources */,
+				47EF7EBB1B17985F00146790 /* MapViewController.m in Sources */,
 				47EF7E931B178E8500146790 /* main.m in Sources */,
+				47EF7EB81B178F8700146790 /* Pizzeria.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
