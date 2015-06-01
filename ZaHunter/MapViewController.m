@@ -73,11 +73,19 @@
 
             MKRoute *route = response.routes[0];
             [self.mapView addOverlay:route.polyline];
+
+            int i = 0;
+            NSMutableString *directionsString = [NSMutableString string];
+            for (MKRouteStep *step in route.steps) {
+//                NSLog(@"%@", step.instructions);
+                [directionsString appendFormat:@"%d. %@\n", i, step.instructions];
+                i++;
+            }
+
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Directions" message:directionsString delegate:self cancelButtonTitle:@"Thanks" otherButtonTitles: nil];
+            [alert show];
         }
     }];
-
-
-
 }
 
 -(MKOverlayRenderer *)mapView:(MKMapView *)mapView rendererForOverlay:(id<MKOverlay>)overlay {
